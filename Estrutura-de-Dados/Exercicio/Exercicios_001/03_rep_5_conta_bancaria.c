@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * Realisa a divisão de dois números inteiros.
+ * Faz operações simulando uma conta bancária e suas operções básicas.
  * 
  * Escreva um programa em C para ler o saldo inicial de uma conta bancária.
  * A seguir ler um número indeterminado de pares de valores indicando
