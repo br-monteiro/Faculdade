@@ -21,7 +21,7 @@ int main() {
     /**
      * Solicita a inserção do numero de lados
      */
-    printf("Indique a quatidade de lados no poligono regular:");
+    printf("Indique a quatidade de lados do poligono regular:");
     scanf("%d", &num_lados);
     /**
      * Calcula as operações necessárias para um triângulo
