@@ -23,42 +23,52 @@ int main() {
      */
     printf("Indique a quatidade de lados do poligono regular:");
     scanf("%d", &num_lados);
+
     /**
-     * Calcula as operações necessárias para um triângulo
+     * Operações para a classificação do polígono
      */
-    if (num_lados == 3) {
+    switch(num_lados) {
         /**
-         * Solicita a inserção da medida
+         * Calcula as operações necessárias para um triângulo
          */
-        printf("Indique a medida do lado:");
-        scanf("%f", &med_lado);
-        // Calcula o perímetro de um triângulo
-        med_lado = med_lado + med_lado + med_lado;
-        // Imprime o resultado da operção
-        printf("TRIANGULO\n Perimetro igual a:%f", med_lado);
-    /**
-     * Calcula as operações necessárias para um quadrado 
-     */
-    } else if (num_lados == 4) {
+        case 3:
+            /**
+             * Solicita a inserção da medida
+             */
+            printf("Indique a medida do lado:");
+            scanf("%f", &med_lado);
+            // Calcula o perímetro de um triângulo
+            med_lado = med_lado + med_lado + med_lado;
+            // Imprime o resultado da operção
+            printf("TRIANGULO\n Perimetro igual a:%f", med_lado);
+            break;
         /**
-         * Solicita a inserção da medida
+         * Calcula as operações necessárias para um quadrado 
          */
-        printf("Indique a medida do lado:");
-        scanf("%f", &med_lado);
-        // Calcula a área do quadrado
-        med_lado = med_lado * med_lado;
-        printf("QUADRADO\n Area igual a:%f", med_lado);
-    } else if (num_lados == 5) {
-        /**
-         * Imprime o a mesagem PENTAGONO na tela
-         */
-        printf("PENTAGONO");
-    } else {
-        /**
-         * Imprime o a mesagem alertando que não foi possível
-         * identifica o poligono 
-         */
-        printf("Poligono nao identificado.");
+        case 4:
+            /**
+             * Solicita a inserção da medida
+             */
+            printf("Indique a medida do lado:");
+            scanf("%f", &med_lado);
+            // Calcula a área do quadrado
+            med_lado = med_lado * med_lado;
+            printf("QUADRADO\n Area igual a:%f", med_lado);
+            break;
+        // Pentagono
+        case 5:
+            /**
+             * Imprime o a mesagem PENTAGONO na tela
+             */
+            printf("PENTAGONO");
+            break;
+        default:
+            /**
+             * Imprime o a mesagem alertando que não foi possível
+             * identifica o poligono 
+             */
+            printf("Poligono nao identificado.");
+            break;
     }
     return 0;
 }
