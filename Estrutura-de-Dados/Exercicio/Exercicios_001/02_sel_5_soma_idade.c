@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * Soma idade.
+ * Soma e multiplica idade.
  * 
  * Escreva um programa em C que leia a idade de 2 homens e 2 mulheres
  * (considere que a idade dos homens será sempre diferente, assim como
@@ -40,14 +40,14 @@ int main() {
             // soma a idade do Homem mais velho com a da mulher mais nova
             result_1 = homem_1 + mulher_2;
             // soma a idade do Homem mais novo com a da mulher mais velha
-            result_2 = homem_2 + mulher_1;
+            result_2 = homem_2 * mulher_1;
 
         } else {
 
             // soma a idade do Homem mais velho com a da mulher mais nova
             result_1 = homem_1 + mulher_1;
             // soma a idade do Homem mais novo com a da mulher mais velha
-            result_2 = homem_2 + mulher_2;
+            result_2 = homem_2 * mulher_2;
 
         }
     // Se o segundo Homem for mais velho, executa o bloco seguinte
@@ -59,14 +59,14 @@ int main() {
             // soma a idade do Homem mais velho com a da mulher mais nova
             result_1 = homem_2 + mulher_2;
             // soma a idade do Homem mais novo com a da mulher mais velha
-            result_2 = homem_1 + mulher_1;
+            result_2 = homem_1 * mulher_1;
 
         } else {
 
             // soma a idade do Homem mais velho com a da mulher mais nova
             result_1 = homem_2 + mulher_1;
             // soma a idade do Homem mais novo com a da mulher mais velha
-            result_2 = homem_1 + mulher_2;
+            result_2 = homem_1 * mulher_2;
 
         }
 
