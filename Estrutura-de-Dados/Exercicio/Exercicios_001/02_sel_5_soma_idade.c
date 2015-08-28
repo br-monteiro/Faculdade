@@ -39,14 +39,14 @@ int main() {
 
             // soma a idade do Homem mais velho com a da mulher mais nova
             result_1 = homem_1 + mulher_2;
-            // soma a idade do Homem mais novo com a da mulher mais velha
+            // multiplica a idade do Homem mais novo com a da mulher mais velha
             result_2 = homem_2 * mulher_1;
 
         } else {
 
             // soma a idade do Homem mais velho com a da mulher mais nova
             result_1 = homem_1 + mulher_1;
-            // soma a idade do Homem mais novo com a da mulher mais velha
+            // multiplica a idade do Homem mais novo com a da mulher mais velha
             result_2 = homem_2 * mulher_2;
 
         }
@@ -58,14 +58,14 @@ int main() {
 
             // soma a idade do Homem mais velho com a da mulher mais nova
             result_1 = homem_2 + mulher_2;
-            // soma a idade do Homem mais novo com a da mulher mais velha
+            // multiplica a idade do Homem mais novo com a da mulher mais velha
             result_2 = homem_1 * mulher_1;
 
         } else {
 
             // soma a idade do Homem mais velho com a da mulher mais nova
             result_1 = homem_2 + mulher_1;
-            // soma a idade do Homem mais novo com a da mulher mais velha
+            // multiplica a idade do Homem mais novo com a da mulher mais velha
             result_2 = homem_1 * mulher_2;
 
         }
@@ -74,7 +74,7 @@ int main() {
 
     // exibe o resultado na tela
     printf("\n A idade do Homem mais velho somado a idade da mulher mais nova: %d\n", result_1);
-    printf("\n A idade do Homem mais novo somado a idade da mulher mais velha: %d", result_2);
+    printf("\n A idade do Homem mais novo multiplicado com a idade da mulher mais velha: %d", result_2);
     return 0;
 }
 
