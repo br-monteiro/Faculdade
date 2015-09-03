@@ -35,14 +35,19 @@ int absoluto(int n) {
 int main() {
 
     // Declaração de variáveis
-    int value;
+    int value, i = 0;
     
-    // Solicita a inserção de um número inteiro
-    printf("Insira um numero inteiro: ");
-    scanf("%d", &value);
-    
-    // imprime o resultado
-    printf("O valor absoluto de %d e igual a %d", value, absoluto(value));
+    do {
+        // Solicita a inserção de um número inteiro
+        printf("\nInsira um numero inteiro: ");
+        scanf("%d", &value);
+
+        // imprime o resultado
+        printf("O valor absoluto de %d e igual a %d\n", value, absoluto(value));
+        
+        ++i; // incremento
+        
+    } while(i < 5);
     
     return 0;
 }
