@@ -32,7 +32,7 @@ int absoluto(int n) {
 /**
  * @return int 
  */
-int main() {
+int main(void) {
 
     // Declaração de variáveis
     int value, i = 0;
