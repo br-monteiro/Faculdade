@@ -1,1 +1,0 @@
-este é um teste de commit, clone, pull e push.
