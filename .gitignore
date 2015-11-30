@@ -45,3 +45,5 @@ Temporary Items
 /Estrutura-de-Dados/Exercicio/Exercicios_001/Makefile
 /Estrutura-de-Dados/Exercicio/Exercicios_001/nbproject/
 *.exe
+/nbproject/private/
+/nbproject/
