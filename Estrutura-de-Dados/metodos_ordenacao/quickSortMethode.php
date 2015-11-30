@@ -5,6 +5,13 @@
  * @version 0.1
  * @author ceimbe-311
  */
+
+/**
+ * Função de ordenação
+ * @param array $vet
+ * @param int $ini Início do Array
+ * @param in $fim Final do Array (tamanho do array)
+ */
 function quicksort(&$vet, $ini, $fim)
 {
     $i = $ini;
