@@ -43,8 +43,12 @@ Network Trash Folder
 Temporary Items
 .apdisk
 *.exe
+*.class
+.netbeans_automatic_build
+.netbeans_update_resources
 /nbproject/private/
 /nbproject/
 /Linguagem-de-Programacao/Exercicio/ExercicioLobato/build.xml
 /Linguagem-de-Programacao/Exercicio/ExercicioLobato/manifest.mf
 /Linguagem-de-Programacao/Exercicio/ExercicioLobato/nbproject/
+/Linguagem-de-Programacao/Exercicio/ExercicioLobato/build/*
