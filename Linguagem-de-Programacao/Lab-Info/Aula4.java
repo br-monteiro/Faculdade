@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
  */
 public class Aula4 {
 
-    public static String strMes;
+    private static String strMes;
     
     public static void main(String[] args) {
         //Declaração de variáveis
