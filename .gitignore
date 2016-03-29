@@ -46,9 +46,13 @@ Temporary Items
 *.class
 .netbeans_automatic_build
 .netbeans_update_resources
-/nbproject/private/
-/nbproject/
+*/nbproject/private/*
 /Linguagem-de-Programacao/Exercicio/ExercicioLobato/build.xml
 /Linguagem-de-Programacao/Exercicio/ExercicioLobato/manifest.mf
 /Linguagem-de-Programacao/Exercicio/ExercicioLobato/nbproject/
 /Linguagem-de-Programacao/Exercicio/ExercicioLobato/build/*
+/Linguagem-de-Programacao/Exercicio/ListaDeExercicio02/nbproject/private/
+/Linguagem-de-Programacao/Exercicio/ListaDeExercicio02/manifest.mf
+/Linguagem-de-Programacao/Exercicio/ListaDeExercicio02/build.xml
+/Linguagem-de-Programacao/Exercicio/ListaDeExercicio02/build/*
+/Linguagem-de-Programacao/Exercicio/ListaDeExercicio02/nbproject/
