@@ -23,7 +23,7 @@ public class Exer01 {
      */
     private static String msg;
 
-    public static void main(String[] args)
+    public static void start()
     {
         String msg = "";
         // coleta os valores indicados pelo usuário
@@ -39,9 +39,6 @@ public class Exer01 {
         
         // exibe as informações dos calculos para o usuário
         Util.msg(msg);
-        // finaliza o processo
-        System.exit(0);
-
     }
     
     /**
