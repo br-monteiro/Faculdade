@@ -14,12 +14,23 @@ public class Util {
      * identificação do campo de entrada de dados
      * @return int
      */
-    protected static int recebeValor(String msg)
+    public static int recebeValor(String msg)
     {
         // recebe o valor idicado pelo usuário
+        // exibe a mensagem enviada por msg
         msg = JOptionPane.showInputDialog(msg);
-        // retorna o valor informado pelo usuário convertido em inteiro
-        return Integer.parseInt(msg);
+        // solicita o valor ao usuário
+        try {
+            // retorna o valor informado pelo usuário convertido em inteiro
+            return Integer.parseInt(msg);
+        // lança uma Exception informando que o número não pode ser convertido
+        } catch (NumberFormatException e) {
+            Util.msg("Não foi possivel efetuar a operação \n Erro: "
+                + e.getMessage());
+            // força a saída do sistema
+            System.exit(0);
+        }
+        return 0;
     }
     
     /**
@@ -27,7 +38,7 @@ public class Util {
      * 
      * @param msg Texto da mensagem
      */
-    protected static void msg(String msg)
+    public static void msg(String msg)
     {
         JOptionPane.showMessageDialog(null, msg);
     } 
