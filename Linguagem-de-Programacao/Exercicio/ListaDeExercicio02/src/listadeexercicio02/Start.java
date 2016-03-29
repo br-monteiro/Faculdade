@@ -22,8 +22,12 @@ public class Start
     private static void selectApp(int indexApp)
     {
         switch (indexApp) {
+            // lista de execícios
             case 1:
                 Exer01.start();
+                break;
+            case 2:
+                Exer02.start();
                 break;
             default:
                 Util.msg("O exercício não foi encontrado!");
