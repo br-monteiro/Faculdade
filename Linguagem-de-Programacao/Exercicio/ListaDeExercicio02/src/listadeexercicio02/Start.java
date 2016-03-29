@@ -9,7 +9,10 @@ public class Start
     
     public static void main(String[] args)
     {
-        Start.selectApp(Util.recebeValor("Indique o número do exercício a ser executado"));
+        Start.selectApp(Util.recebeValor("Indique o número do exercício a ser executado"
+            + "Exercícios disponívels:"
+            + "1 - Caulculos entre A e B"
+            + "2 - Menor valor entre três indicações"));
         // finaliza o processo
         System.exit(0);
 
