@@ -10,8 +10,6 @@
 
 package listadeexercicio02;
 
-import javax.swing.JOptionPane;
-
 /**
  * @author Bruno Monteiro <bruno.monteirodg@gmail.com>
  */
@@ -29,8 +27,8 @@ public class Exer01 {
     {
         String msg = "";
         // coleta os valores indicados pelo usuário
-        Exer01.setA(Exer01.recebeValor("Indique um valor para A:"));
-        Exer01.setB(Exer01.recebeValor("Indique um valor para B:"));
+        Exer01.setA(Util.recebeValor("Indique um valor para A:"));
+        Exer01.setB(Util.recebeValor("Indique um valor para B:"));
         
         // inicia o calculo
         for (int i = 1; i <= 4; i++) {
@@ -40,7 +38,8 @@ public class Exer01 {
         }
         
         // exibe as informações dos calculos para o usuário
-        Exer01.msg(msg);
+        Util.msg(msg);
+        // finaliza o processo
         System.exit(0);
 
     }
@@ -152,30 +151,5 @@ public class Exer01 {
             Exer01.setMsg("Não foi possivel efetuar a operação \n Erro: "
                 + e.getMessage());
         }
-    }
-
-    /**
-     * Recebe o valor enviado pelo usuário
-     * @param msg Mensagem a ser exibida ao usuário para
-     * identificação do campo de entrada de dados
-     * @return int
-     */
-    private static int recebeValor(String msg)
-    {
-        // recebe o valor idicado pelo usuário
-        msg = JOptionPane.showInputDialog(msg);
-        // retorna o valor informado pelo usuário convertido em inteiro
-        return Integer.parseInt(msg);
-    }
-    
-    /**
-     * Exibe uma caixa de diálogo com mensagem na tela
-     * 
-     * @param msg Texto da mensagem
-     */
-    public static void msg(String msg)
-    {
-        JOptionPane.showMessageDialog(null, msg);
-    }
-    
+    }    
 }
