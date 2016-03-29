@@ -15,6 +15,10 @@ public class Start
 
     }
     
+    /**
+     * Seleciona qual programa deve ser executado
+     * @param indexApp int Indice de execução do programa
+     */
     private static void selectApp(int indexApp)
     {
         switch (indexApp) {
