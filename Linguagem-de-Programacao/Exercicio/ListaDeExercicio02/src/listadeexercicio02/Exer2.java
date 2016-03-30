@@ -12,20 +12,31 @@ package listadeexercicio02;
 /**
  * @author Bruno Monteiro <bruno.monteirodg@gmail.com>
  */
-public class Exer02
+public class Exer2 implements Exercicio
 {
 
-    public static void start()
+
+    /**
+     * Construtor da class
+     */
+    public Exer2()
+    {
+        this.start();
+    }
+
+    @Override
+    public final void start()
     {
         // variável que recebe os valores indicados
-        int value[], j = 1;
-        value = new int[3];
+        float value[], j = 1;
+        value = new float[3];
         String m = "";
 
         // inicia o loop solicitando os dados ao usuário
         for (int i = 0; i < value.length; i++) {
             // atribui os valores ao array
-            value[i] = Util.recebeValor("Indique um valor inteiro | (" + (i + 1) + "/" + value.length + ")");
+            Util.requestValue("Indique um valor inteiro | (" + (i + 1) + "/" + value.length + ")", false);
+            value[i] = Util.getValueFloat();
             // verifica se o valor idicado é menor que 1. Se for,
             // atribui a j o valor encontrado no indice atual
             if (value[i] < j) {
@@ -34,7 +45,7 @@ public class Exer02
         }
 
         // organiza os valores para impressão
-        for (int i : value) {
+        for (float i : value) {
             // concatena os valores indicados
             m += " " + i +",";
         }

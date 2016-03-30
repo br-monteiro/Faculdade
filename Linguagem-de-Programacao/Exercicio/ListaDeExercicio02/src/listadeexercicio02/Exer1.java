@@ -14,7 +14,8 @@ package listadeexercicio02;
  * @author Bruno Monteiro <bruno.monteirodg@gmail.com>
  */
 
-public class Exer01 {
+public class Exer1 implements Exercicio
+{
     
     // atributos que receberam os valores informador pelo usuário
     private static int a, b;
@@ -23,18 +24,29 @@ public class Exer01 {
      */
     private static String msg;
 
-    public static void start()
+    /**
+     * Construtor da class
+     */
+    public Exer1()
+    {
+        this.start();
+    }
+
+    @Override
+    public final void start()
     {
         String msg = "";
         // coleta os valores indicados pelo usuário
-        Exer01.setA(Util.recebeValor("Indique um valor para A:"));
-        Exer01.setB(Util.recebeValor("Indique um valor para B:"));
+        Util.requestValue("Indique um valor para A:", true);
+        Exer1.setA(Util.getValueInt());
+        Util.requestValue("Indique um valor para B:", true);
+        Exer1.setB(Util.getValueInt());
         
         // inicia o calculo
         for (int i = 1; i <= 4; i++) {
             // calcula
-            Exer01.calc(i);
-            msg += Exer01.getMsg() + "\n";
+            Exer1.calc(i);
+            msg += Exer1.getMsg() + "\n";
         }
         
         // exibe as informações dos calculos para o usuário
@@ -47,7 +59,7 @@ public class Exer01 {
      */
     private static void setMsg(String msg)
     {
-        Exer01.msg = msg;
+        Exer1.msg = msg;
     }
     
     /**
@@ -56,7 +68,7 @@ public class Exer01 {
      */
     private static String getMsg()
     {
-        return Exer01.msg;
+        return Exer1.msg;
     }
     
     /**
@@ -65,7 +77,7 @@ public class Exer01 {
      */
     private static void setA(int a)
     {
-        Exer01.a = a;
+        Exer1.a = a;
     }
     
     /**
@@ -74,7 +86,7 @@ public class Exer01 {
      */
     private static int getA()
     {
-        return Exer01.a;
+        return Exer1.a;
     }
     
     /**
@@ -83,7 +95,7 @@ public class Exer01 {
      */
     private static void setB(int b)
     {
-        Exer01.b = b;
+        Exer1.b = b;
     }
 
     /**
@@ -92,7 +104,7 @@ public class Exer01 {
      */
     private static int getB()
     {
-        return Exer01.b;
+        return Exer1.b;
     }
 
     /**
@@ -107,26 +119,26 @@ public class Exer01 {
         switch (option) {
             // adição
             case 1:
-                Exer01.setMsg("A adição entre " + Exer01.getA() + " e "
-                    + Exer01.getB() + " é " + (Exer01.getA() + Exer01.getB()));
+                Exer1.setMsg("A adição entre " + Exer1.getA() + " e "
+                    + Exer1.getB() + " é " + (Exer1.getA() + Exer1.getB()));
                 break;
             // subtração
             case 2:
-                Exer01.setMsg("A subtração entre " + Exer01.getA() + " e "
-                    + Exer01.getB() + " é " + (Exer01.getA() - Exer01.getB()));
+                Exer1.setMsg("A subtração entre " + Exer1.getA() + " e "
+                    + Exer1.getB() + " é " + (Exer1.getA() - Exer1.getB()));
                 break;
             // divisão
             case 3:
-                Exer01.dividedBy();
+                Exer1.dividedBy();
                 break;
             // multiplicação
             case 4:
-                Exer01.setMsg("A multiplicação entre " + Exer01.getA() + " e "
-                    + Exer01.getB() + " é " + (Exer01.getA() * Exer01.getB()));
+                Exer1.setMsg("A multiplicação entre " + Exer1.getA() + " e "
+                    + Exer1.getB() + " é " + (Exer1.getA() * Exer1.getB()));
                 break;
             // operação inexistente
             default:
-                Exer01.setMsg("Não foi possivel efetuar a operação\n Err: " + option);
+                Exer1.setMsg("Não foi possivel efetuar a operação\n Err: " + option);
                 break;
         }
     }
@@ -140,12 +152,12 @@ public class Exer01 {
         // caso a divisão não ocorra, lança uma exception
         try {
             
-            Exer01.setMsg("A divisão entre " + Exer01.getA() + " e " + Exer01.getB()
-                + " é " + (Exer01.getA() / Exer01.getB()));
+            Exer1.setMsg("A divisão entre " + Exer1.getA() + " e " + Exer1.getB()
+                + " é " + (Exer1.getA() / Exer1.getB()));
             
         } catch(ArithmeticException e) {
             
-            Exer01.setMsg("Não foi possivel efetuar a operação \n Erro: "
+            Exer1.setMsg("Não foi possivel efetuar a operação \n Erro: "
                 + e.getMessage());
         }
     }    
