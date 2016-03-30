@@ -1,3 +1,5 @@
 1 - Caulculos entre A e B | v0.0.4;
 2 - Menor valor entre três indicações | v0.0.3;
 3 - Fatorial de n | v0.0.1;
+4 - Classificação de nota | v0.0.1;
+5 - Sequência Fibonacci | v0.0.1;

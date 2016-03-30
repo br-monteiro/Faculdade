@@ -44,6 +44,12 @@ public class Start
             case 3:
                 app = new Exer3();
                 break;
+            case 4:
+                app = new Exer4();
+                break;
+            case 5:
+                app = new Exer5();
+                break;
             default:
                 Util.msg("O exercício não foi encontrado!");
                 System.exit(0);
