@@ -59,7 +59,7 @@ public class Start
      */
     private static String mountMenu() throws FileNotFoundException, IOException
     {
-        FileInputStream stream = new FileInputStream("configMenu.txt");
+        FileInputStream stream = new FileInputStream("configMenuList2.txt");
         InputStreamReader reader = new InputStreamReader(stream);
         BufferedReader br = new BufferedReader(reader);
         String linha = br.readLine();
