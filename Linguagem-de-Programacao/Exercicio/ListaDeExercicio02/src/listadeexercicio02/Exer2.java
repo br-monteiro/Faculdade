@@ -28,18 +28,25 @@ public class Exer2 implements Exercicio
     public final void start()
     {
         // variável que recebe os valores indicados
-        float value[], j = 1;
+        float value[], j;
         value = new float[3];
         String m = "";
 
+        // realiza a primeira consulta
+        Util.requestValue("Indique um valor inteiro | (1/" + value.length + ")", false);
+        // armazena no array o primeiro valor indicado
+        value[0] = Util.getValueFloat();
+        // atribui o valor indicado a j
+        j = value[0];
         // inicia o loop solicitando os dados ao usuário
-        for (int i = 0; i < value.length; i++) {
+        for (int i = 1; i < value.length; i++) {
             // atribui os valores ao array
             Util.requestValue("Indique um valor inteiro | (" + (i + 1) + "/" + value.length + ")", false);
             value[i] = Util.getValueFloat();
             // verifica se o valor idicado é menor que 1. Se for,
             // atribui a j o valor encontrado no indice atual
             if (value[i] < j) {
+                // atualiza o valor de j para o valor corrente
                 j = value[i];
             }
         }
