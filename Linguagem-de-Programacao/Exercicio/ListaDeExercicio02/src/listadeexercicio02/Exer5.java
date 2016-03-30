@@ -42,9 +42,9 @@ public class Exer5 implements Exercicio
     /**
      * Calcula o a sequência Fibonacci
      * @param value
-     * @return 
+     * @return int
      */
-    private static float fibonacci(int value)
+    private static int fibonacci(int value)
     {
         return (value < 2) ? value : fibonacci(value - 1) + fibonacci(value - 2);
     }
