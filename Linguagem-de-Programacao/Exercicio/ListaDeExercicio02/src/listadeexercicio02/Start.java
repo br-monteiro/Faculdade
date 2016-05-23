@@ -29,31 +29,17 @@ public class Start
      */
     private static void selectApp(int indexApp)
     {
-        // recebe a referência para o exercício
-        Exercicio app;
+        try {
+            // recebe o nome da classe a ser instaciada
+            Class classe = Class.forName("listadeexercicio02.Exer" + indexApp);
+            // instacia a classe e executa o construtor da mesma
+            classe.newInstance();
 
-        // percorre a lista
-        switch (indexApp) {
-            // lista de execícios
-            case 1:
-                app = new Exer1();
-                break;
-            case 2:
-                app = new Exer2();
-                break;
-            case 3:
-                app = new Exer3();
-                break;
-            case 4:
-                app = new Exer4();
-                break;
-            case 5:
-                app = new Exer5();
-                break;
-            default:
-                Util.msg("O exercício não foi encontrado!");
-                System.exit(0);
-                break;
+        } catch(ClassNotFoundException | InstantiationException | IllegalAccessException e) {
+            Util.msg("O exercício não foi encontrado!\n"
+                    + "Erro: " + e.getMessage() + "\n"
+                    + "Causa: " + e.getCause());
+            System.exit(0);
         }
     }
 
