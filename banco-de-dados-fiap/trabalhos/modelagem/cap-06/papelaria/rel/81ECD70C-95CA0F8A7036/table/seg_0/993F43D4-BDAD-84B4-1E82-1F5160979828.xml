@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="993F43D4-BDAD-84B4-1E82-1F5160979828" name="PEDIDO_ITEM">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-28 21:02:51 UTC</createdTime>
+<generatorID>0563FCBC-9085-2A3F-954E-61D1E7CEDEA5</generatorID>
+<ownerDesignName>papelaria</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pedido" id="F09E3EA1-2CE5-BD7F-7F64-273223C20E24">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-28 21:02:51 UTC</createdTime>
+<generatorID>31AAB313-A074-385E-B412-8BA84D3FC057</generatorID>
+<ownerDesignName>papelaria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE96E190-FAE1-C2DE-94D2-BA65767D49F2" referredColumn="97515F21-340A-83F9-B264-4B48C005067F"/>
+</associations>
+</Column>
+<Column name="id_produto" id="0B08B5C6-A67E-CBB6-EF8D-8D3C4734BD01">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-28 21:02:51 UTC</createdTime>
+<generatorID>1A197687-47ED-F672-E95C-F37B5F053498</generatorID>
+<ownerDesignName>papelaria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="52035E10-DF8F-2BFD-2808-4D5DF6ECDDEA" referredColumn="BFA82755-B8C4-6C77-53F4-106ED8439D34"/>
+</associations>
+</Column>
+<Column name="valor" id="6D67FDCC-D29F-E8C1-43BE-A6DBC1E1995E">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-28 21:02:51 UTC</createdTime>
+<generatorID>77809FFA-07C8-6E46-AAAB-5C554553F7AE</generatorID>
+<ownerDesignName>papelaria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantiade" id="B7119179-9E26-B7C0-222C-8A1C4ACCE59A">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-28 21:02:51 UTC</createdTime>
+<generatorID>AFE11CC7-A564-3DDB-E32C-AF3F7FDDBBFA</generatorID>
+<ownerDesignName>papelaria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9C989D94-89C7-24CC-C573-81DAB01488DA" name="PEDIDO_ITEM_PEDIDO_FK">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-28 21:02:51 UTC</createdTime>
+<generatorID>CC9E8093-0038-4296-77B7-C1C7611CFCF0</generatorID>
+<ownerDesignName>papelaria</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F09E3EA1-2CE5-BD7F-7F64-273223C20E24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0D7490C-C371-013E-AFE9-77BAD33269D4" name="PEDIDO_ITEM_PRODUTO_FK">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-28 21:02:51 UTC</createdTime>
+<generatorID>ECDA1E61-0749-7447-0D4A-1F8460C81504</generatorID>
+<ownerDesignName>papelaria</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B08B5C6-A67E-CBB6-EF8D-8D3C4734BD01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

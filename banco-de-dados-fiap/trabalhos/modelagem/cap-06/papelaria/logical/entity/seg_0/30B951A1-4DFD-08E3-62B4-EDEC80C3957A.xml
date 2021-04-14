@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="30B951A1-4DFD-08E3-62B4-EDEC80C3957A" name="PEDIDO">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-09 02:07:22 UTC</createdTime>
+<ownerDesignName>papelaria</ownerDesignName>
+<engineerTo>
+<item key="9D8A1570-F455-3BDA-B8CC-12EEBD78C9FB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_pedido" id="4B2561C8-8B6C-660B-0C95-AB05539AE8BD">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-09 02:07:35 UTC</createdTime>
+<ownerDesignName>papelaria</ownerDesignName>
+<engineerTo>
+<item key="9D8A1570-F455-3BDA-B8CC-12EEBD78C9FB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_loja" id="3C406FDD-F4BD-E28A-85EE-17423C614125">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-09 03:05:40 UTC</createdTime>
+<generatorID>28B32E5C-6328-F945-16EE-C5C77348C3BC</generatorID>
+<ownerDesignName>papelaria</ownerDesignName>
+<engineerTo>
+<item key="9D8A1570-F455-3BDA-B8CC-12EEBD78C9FB" value="true"/>
+</engineerTo>
+<referedAttribute>AF532BFB-D654-4877-7FB0-E69F857E8BC4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="A1E0FC47-C2D8-8BC4-DDFC-5DBD2C1646D4">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-09 03:08:21 UTC</createdTime>
+<generatorID>EB8D20F8-1FF0-6FE1-41F5-AAD79F34F2E3</generatorID>
+<ownerDesignName>papelaria</ownerDesignName>
+<engineerTo>
+<item key="9D8A1570-F455-3BDA-B8CC-12EEBD78C9FB" value="true"/>
+</engineerTo>
+<referedAttribute>AECF8195-5F0A-FB7E-4596-500DF65443D8</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_vendedor" id="18BADD69-5733-AB49-4743-70F1C5554F5A">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-09 03:25:47 UTC</createdTime>
+<generatorID>A345FA45-0249-EE73-C071-D4E15AE88623</generatorID>
+<ownerDesignName>papelaria</ownerDesignName>
+<engineerTo>
+<item key="9D8A1570-F455-3BDA-B8CC-12EEBD78C9FB" value="true"/>
+</engineerTo>
+<referedAttribute>AECF8195-5F0A-FB7E-4596-500DF65443D8</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_status" id="882E44F4-DB1D-99C4-7554-EA9BA5631AE5">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-09 03:15:13 UTC</createdTime>
+<generatorID>2C45F631-69A1-7BA3-CBD3-F0EB87F7B553</generatorID>
+<ownerDesignName>papelaria</ownerDesignName>
+<engineerTo>
+<item key="9D8A1570-F455-3BDA-B8CC-12EEBD78C9FB" value="true"/>
+</engineerTo>
+<referedAttribute>A2819A95-EB4A-3863-F2C3-B7CED6379E38</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data" id="4C448D12-566B-15C2-4B77-35124680481F">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-09 03:12:18 UTC</createdTime>
+<ownerDesignName>papelaria</ownerDesignName>
+<engineerTo>
+<item key="9D8A1570-F455-3BDA-B8CC-12EEBD78C9FB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="50B6B72B-3541-197B-0F83-90714B054FFC" name="PEDIDO PK">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-09 02:18:49 UTC</createdTime>
+<ownerDesignName>papelaria</ownerDesignName>
+<engineerTo>
+<item key="9D8A1570-F455-3BDA-B8CC-12EEBD78C9FB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4B2561C8-8B6C-660B-0C95-AB05539AE8BD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

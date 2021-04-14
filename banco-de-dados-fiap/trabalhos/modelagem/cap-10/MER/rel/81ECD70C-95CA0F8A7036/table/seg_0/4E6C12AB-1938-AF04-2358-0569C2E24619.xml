@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4E6C12AB-1938-AF04-2358-0569C2E24619" name="TELEFONE">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-28 21:02:51 UTC</createdTime>
+<generatorID>520B2D7C-CE4C-E065-7EBA-F10265CAAC42</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_telefone" id="C29B0B02-00EA-D70A-F1B0-069C01690BB9">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-28 21:02:51 UTC</createdTime>
+<generatorID>38825EE2-4D41-D2D7-7F90-9DC1A58DED6B</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_usuario" id="1D0A5537-B6BE-E2FF-BB47-37F77B413027">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-28 21:02:51 UTC</createdTime>
+<generatorID>8BF2800D-F0FA-DCFA-0F3B-A4D4F6341F54</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="35B3A63B-2EC6-774C-FD3C-0038DA610F42" referredColumn="A362323E-2289-1B13-2FF2-83D6D7833871"/>
+</associations>
+</Column>
+<Column name="tipo" id="D5798582-1007-965B-6703-B3FCCD5A28B0">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-28 21:02:51 UTC</createdTime>
+<generatorID>3FFCC1B0-F62A-59ED-A2ED-91D7D042D7C8</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ddd" id="D956434E-44BD-A7AA-E512-B9D1058A2462">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-28 21:02:51 UTC</createdTime>
+<generatorID>10B2ABEF-437D-BBE6-6503-72CA9985CCFB</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero" id="82FFB773-824E-1796-51A7-837E8502F8B6">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-28 21:02:51 UTC</createdTime>
+<generatorID>0129863C-EDA8-5345-24D7-14EA7516E1E9</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="58B96D8A-BE35-4AFD-5034-C1FE1EAE854D" name="TELEFONE_PK">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-28 21:02:51 UTC</createdTime>
+<generatorID>56523698-6FD5-A7D6-CD09-3023FA63009D</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C29B0B02-00EA-D70A-F1B0-069C01690BB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5CCACAE-C4ED-AC2F-F5C0-DB42975123ED" name="TELEFONE_USUARIO_FK">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-28 21:02:51 UTC</createdTime>
+<generatorID>12114042-8CEA-DB0A-64C5-2CF886C4B963</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D0A5537-B6BE-E2FF-BB47-37F77B413027"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

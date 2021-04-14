@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F1453717-57BD-6176-AB2A-31B0711757B5" name="USUARIO">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-28 21:02:51 UTC</createdTime>
+<generatorID>78183BE1-1EE9-DEC1-3C19-D1E54153802E</generatorID>
+<ownerDesignName>papelaria</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuario" id="A362323E-2289-1B13-2FF2-83D6D7833871">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-28 21:02:51 UTC</createdTime>
+<generatorID>AECF8195-5F0A-FB7E-4596-500DF65443D8</generatorID>
+<ownerDesignName>papelaria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_cidade" id="23FE74A3-25AD-D2A9-61F9-267A75FFE492">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-28 21:02:51 UTC</createdTime>
+<generatorID>BBF000FD-F37C-A64F-5245-D2364D7E9FDF</generatorID>
+<ownerDesignName>papelaria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE053E34-7095-FF94-B83B-0486131B7EEF" referredColumn="091E0331-08B8-E26B-8FD1-ACE6537A20C4"/>
+</associations>
+</Column>
+<Column name="nome" id="841E6BEF-7031-FA4B-3BDB-AAD7A6506979">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-28 21:02:51 UTC</createdTime>
+<generatorID>AD594BE5-3C86-CFDD-B89C-73E11B95E0BB</generatorID>
+<ownerDesignName>papelaria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="77FF7340-281E-6B29-60AA-2B5873C367C0">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-28 21:02:51 UTC</createdTime>
+<comment>RFC 3696</comment>
+<generatorID>9264E0DF-2F16-C6FC-5255-D203062A4BFB</generatorID>
+<ownerDesignName>papelaria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>254</dataTypeSize>
+<ownDataTypeParameters>254,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf" id="5E12D18C-24C7-AC93-2C88-4EE1B84BB49A">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-28 21:02:51 UTC</createdTime>
+<generatorID>E4451CC3-0AA0-1A7A-313A-FEA2FDAC78B3</generatorID>
+<ownerDesignName>papelaria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cep" id="D8FA6BC5-DCC6-9A8B-221E-2E0218866A63">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-28 21:02:51 UTC</createdTime>
+<generatorID>1E0F66C5-2446-9467-56A5-A27CA33CE588</generatorID>
+<ownerDesignName>papelaria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereco" id="2457DD61-B017-D05E-9146-4E5CDAB840A1">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-28 21:02:51 UTC</createdTime>
+<generatorID>4D6B8C4F-6F33-2429-CDAA-85DFB59391DA</generatorID>
+<ownerDesignName>papelaria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_endereco" id="8913B2E1-BC02-48A8-98A5-1A83B549E96B">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-28 21:02:51 UTC</createdTime>
+<generatorID>39023AE6-97F2-E0F8-A3E5-7A7A07E5B548</generatorID>
+<ownerDesignName>papelaria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="complemento_endereco" id="CB588BE3-59C3-E273-BD6D-EAB134E25C4D">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-28 21:02:51 UTC</createdTime>
+<generatorID>4BC624E3-BBAF-CCA5-3293-AD51A964FC44</generatorID>
+<ownerDesignName>papelaria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bairro" id="03BB0E2F-E48A-F8B3-0C85-72784B1497BA">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-28 21:02:51 UTC</createdTime>
+<generatorID>7DC61DB6-ECFF-308F-F88B-4B26C79A1857</generatorID>
+<ownerDesignName>papelaria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3C1E1DD4-D26F-1503-ED0A-5F2BF91FF172" name="USUARIO_PK">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-28 21:02:51 UTC</createdTime>
+<generatorID>94435C12-8D0A-BD38-A59B-1E9F3B13CE32</generatorID>
+<ownerDesignName>papelaria</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A362323E-2289-1B13-2FF2-83D6D7833871"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65AB3C6A-E341-1216-B004-18D80D286772" name="USUARIO_CIDADE_FK">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-28 21:02:51 UTC</createdTime>
+<generatorID>419C2491-55A5-F23A-6006-F51367E08177</generatorID>
+<ownerDesignName>papelaria</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23FE74A3-25AD-D2A9-61F9-267A75FFE492"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

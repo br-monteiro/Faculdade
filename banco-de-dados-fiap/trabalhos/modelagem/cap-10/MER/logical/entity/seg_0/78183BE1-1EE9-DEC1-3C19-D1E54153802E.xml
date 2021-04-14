@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="78183BE1-1EE9-DEC1-3C19-D1E54153802E" name="USUARIO">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-09 01:43:23 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="81ECD70C-CF0F-445F-D973-95CA0F8A7036" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_usuario" id="AECF8195-5F0A-FB7E-4596-500DF65443D8">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-09 01:43:30 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="81ECD70C-CF0F-445F-D973-95CA0F8A7036" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cidade" id="BBF000FD-F37C-A64F-5245-D2364D7E9FDF">
+<createdBy>renanoliveira</createdBy>
+<createdTime>2021-03-09 21:14:26 UTC</createdTime>
+<generatorID>419C2491-55A5-F23A-6006-F51367E08177</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="81ECD70C-CF0F-445F-D973-95CA0F8A7036" value="true"/>
+</engineerTo>
+<referedAttribute>447DFF75-4451-FE9D-B14D-768707661018</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="AD594BE5-3C86-CFDD-B89C-73E11B95E0BB">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-09 01:43:47 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="81ECD70C-CF0F-445F-D973-95CA0F8A7036" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="9264E0DF-2F16-C6FC-5255-D203062A4BFB">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-09 01:44:10 UTC</createdTime>
+<comment>RFC 3696</comment>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="81ECD70C-CF0F-445F-D973-95CA0F8A7036" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>254</dataTypeSize>
+<ownDataTypeParameters>254,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="E4451CC3-0AA0-1A7A-313A-FEA2FDAC78B3">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-09 01:44:16 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="81ECD70C-CF0F-445F-D973-95CA0F8A7036" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cep" id="1E0F66C5-2446-9467-56A5-A27CA33CE588">
+<createdBy>renanoliveira</createdBy>
+<createdTime>2021-03-09 21:05:51 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="81ECD70C-CF0F-445F-D973-95CA0F8A7036" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereco" id="4D6B8C4F-6F33-2429-CDAA-85DFB59391DA">
+<createdBy>renanoliveira</createdBy>
+<createdTime>2021-03-09 21:05:51 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="81ECD70C-CF0F-445F-D973-95CA0F8A7036" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_endereco" id="39023AE6-97F2-E0F8-A3E5-7A7A07E5B548">
+<createdBy>renanoliveira</createdBy>
+<createdTime>2021-03-09 21:05:51 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="81ECD70C-CF0F-445F-D973-95CA0F8A7036" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="complemento_endereco" id="4BC624E3-BBAF-CCA5-3293-AD51A964FC44">
+<createdBy>renanoliveira</createdBy>
+<createdTime>2021-03-09 21:05:51 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="81ECD70C-CF0F-445F-D973-95CA0F8A7036" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bairro" id="7DC61DB6-ECFF-308F-F88B-4B26C79A1857">
+<createdBy>renanoliveira</createdBy>
+<createdTime>2021-03-09 21:05:51 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="81ECD70C-CF0F-445F-D973-95CA0F8A7036" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="94435C12-8D0A-BD38-A59B-1E9F3B13CE32" name="CLIENTE PK">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-09 01:43:46 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="81ECD70C-CF0F-445F-D973-95CA0F8A7036" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AECF8195-5F0A-FB7E-4596-500DF65443D8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

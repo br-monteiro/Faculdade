@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="890AFB54-821D-051A-E191-B9B9958ABCF1" containerWithKeyObject="23DD5018-5E28-73BF-C018-92F9D97AD235" localFKIndex="6C9D4FAB-A729-DA66-DE79-FB03BEFD366D" name="PRODUTO_UNID_FORNEC_FK">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-28 21:02:51 UTC</createdTime>
+<generatorID>23DFE340-FF27-1FF2-DED8-B5BD301BE0E2</generatorID>
+<ownerDesignName>papelaria</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>32839FAC-DD9B-CE3C-91D0-ED6867BF7B2E</referredTableID>
+<keyObject>EAEDDD10-3507-AE91-902F-C1906706ABBC</keyObject>
+<referredKeyID>EAEDDD10-3507-AE91-902F-C1906706ABBC</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

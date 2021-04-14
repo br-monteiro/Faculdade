@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="cidade_loja" directorySegmentName="seg_0" id="EDC1CFB9-9DF4-BE08-4DEB-3EA299709141">
+<createdBy>renanoliveira</createdBy>
+<createdTime>2021-03-09 21:14:58 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="81ECD70C-CF0F-445F-D973-95CA0F8A7036" value="true"/>
+</engineerTo>
+<sourcePk>D9E6E7A3-D8BE-C7BB-BB4E-1FAA6832529B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>30F47B5B-AE32-3AC8-70B0-57F6FD801CBC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>886A32F2-F0F3-C420-49FE-D948D54D67A5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

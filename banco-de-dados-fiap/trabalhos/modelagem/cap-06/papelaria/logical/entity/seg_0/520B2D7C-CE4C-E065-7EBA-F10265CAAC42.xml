@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="520B2D7C-CE4C-E065-7EBA-F10265CAAC42" name="TELEFONE">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-09 01:51:31 UTC</createdTime>
+<ownerDesignName>papelaria</ownerDesignName>
+<engineerTo>
+<item key="9D8A1570-F455-3BDA-B8CC-12EEBD78C9FB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_telefone" id="38825EE2-4D41-D2D7-7F90-9DC1A58DED6B">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-09 01:51:43 UTC</createdTime>
+<ownerDesignName>papelaria</ownerDesignName>
+<engineerTo>
+<item key="9D8A1570-F455-3BDA-B8CC-12EEBD78C9FB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="8BF2800D-F0FA-DCFA-0F3B-A4D4F6341F54">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-09 01:53:35 UTC</createdTime>
+<generatorID>12114042-8CEA-DB0A-64C5-2CF886C4B963</generatorID>
+<ownerDesignName>papelaria</ownerDesignName>
+<engineerTo>
+<item key="9D8A1570-F455-3BDA-B8CC-12EEBD78C9FB" value="true"/>
+</engineerTo>
+<referedAttribute>AECF8195-5F0A-FB7E-4596-500DF65443D8</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="3FFCC1B0-F62A-59ED-A2ED-91D7D042D7C8">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-09 01:51:55 UTC</createdTime>
+<ownerDesignName>papelaria</ownerDesignName>
+<engineerTo>
+<item key="9D8A1570-F455-3BDA-B8CC-12EEBD78C9FB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ddd" id="10B2ABEF-437D-BBE6-6503-72CA9985CCFB">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-09 01:52:08 UTC</createdTime>
+<ownerDesignName>papelaria</ownerDesignName>
+<engineerTo>
+<item key="9D8A1570-F455-3BDA-B8CC-12EEBD78C9FB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero" id="0129863C-EDA8-5345-24D7-14EA7516E1E9">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-09 01:52:16 UTC</createdTime>
+<ownerDesignName>papelaria</ownerDesignName>
+<engineerTo>
+<item key="9D8A1570-F455-3BDA-B8CC-12EEBD78C9FB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="56523698-6FD5-A7D6-CD09-3023FA63009D" name="TELEFONE PK">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-09 01:52:05 UTC</createdTime>
+<ownerDesignName>papelaria</ownerDesignName>
+<engineerTo>
+<item key="9D8A1570-F455-3BDA-B8CC-12EEBD78C9FB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>38825EE2-4D41-D2D7-7F90-9DC1A58DED6B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

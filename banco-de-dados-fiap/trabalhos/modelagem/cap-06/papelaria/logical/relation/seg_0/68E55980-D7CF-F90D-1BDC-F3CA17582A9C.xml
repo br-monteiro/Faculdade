@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="contemv1" directorySegmentName="seg_0" id="68E55980-D7CF-F90D-1BDC-F3CA17582A9C">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-09 02:51:11 UTC</createdTime>
+<ownerDesignName>papelaria</ownerDesignName>
+<engineerTo>
+<item key="2F7C616A-6403-8866-37FF-178F211CB1BE" value="true"/>
+</engineerTo>
+<sourcePk>5E850098-5754-AC7C-B407-8FE25E08E4F9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EE524C4E-F29E-4778-F38E-1AB6490BBB15</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>32C21F05-58CD-FF73-1596-FD3378B4C988</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F45137EF-227F-CD32-8534-357A6676FEBA" name="PEDIDO">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-28 21:02:51 UTC</createdTime>
+<generatorID>30B951A1-4DFD-08E3-62B4-EDEC80C3957A</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pedido" id="97515F21-340A-83F9-B264-4B48C005067F">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-28 21:02:51 UTC</createdTime>
+<generatorID>4B2561C8-8B6C-660B-0C95-AB05539AE8BD</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_loja" id="9EDF54B3-96F0-9086-9AE5-30438EA08099">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-28 21:02:51 UTC</createdTime>
+<generatorID>3C406FDD-F4BD-E28A-85EE-17423C614125</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="98FB3FDA-C266-7CD2-4204-477DB9511514" referredColumn="019C0070-7B66-00F1-7966-9F5228F7B57A"/>
+</associations>
+</Column>
+<Column name="id_usuario" id="A1928BB0-88D3-5030-BB27-150D852BA29C">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-28 21:02:51 UTC</createdTime>
+<generatorID>A1E0FC47-C2D8-8BC4-DDFC-5DBD2C1646D4</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8C2B7725-26CF-8676-1B6D-9CFF6A4EDB24" referredColumn="A362323E-2289-1B13-2FF2-83D6D7833871"/>
+</associations>
+</Column>
+<Column name="id_vendedor" id="428CC29B-6B93-C5D6-9864-08809C532E92">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-28 21:02:51 UTC</createdTime>
+<generatorID>18BADD69-5733-AB49-4743-70F1C5554F5A</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4690AE4F-6E13-CC84-3198-E2EFB9CB9E5E" referredColumn="A362323E-2289-1B13-2FF2-83D6D7833871"/>
+</associations>
+</Column>
+<Column name="id_status" id="52163D8F-28C9-9275-F79A-CD6CB9B0A5AC">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-28 21:02:51 UTC</createdTime>
+<generatorID>882E44F4-DB1D-99C4-7554-EA9BA5631AE5</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6BC6184B-19B6-D81A-7721-B36A5B4C0351" referredColumn="E6F6BBB9-2B0F-6172-12CD-0FA0F589AF20"/>
+</associations>
+</Column>
+<Column name="data" id="3EC5D03C-6A13-710A-3256-3F23497C1188">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-28 21:02:51 UTC</createdTime>
+<generatorID>4C448D12-566B-15C2-4B77-35124680481F</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AE3E6CEF-58A3-2250-C5DE-9D9BCE63B2F0" name="PEDIDO_PK">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-28 21:02:51 UTC</createdTime>
+<generatorID>50B6B72B-3541-197B-0F83-90714B054FFC</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97515F21-340A-83F9-B264-4B48C005067F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6338C1E4-34D2-7648-ADE3-D1A9D828AFFF" name="PEDIDO_USUARIO_FK">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-28 21:02:51 UTC</createdTime>
+<generatorID>EB8D20F8-1FF0-6FE1-41F5-AAD79F34F2E3</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1928BB0-88D3-5030-BB27-150D852BA29C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="102C970B-F240-F2EC-FB79-DAB4D2303567" name="PEDIDO_LOJA_FK">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-28 21:02:51 UTC</createdTime>
+<generatorID>28B32E5C-6328-F945-16EE-C5C77348C3BC</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9EDF54B3-96F0-9086-9AE5-30438EA08099"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A4C5F95-D5BF-6B4C-ED1C-425F9C707A05" name="PEDIDO_STATUS_FK">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-28 21:02:51 UTC</createdTime>
+<generatorID>2C45F631-69A1-7BA3-CBD3-F0EB87F7B553</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52163D8F-28C9-9275-F79A-CD6CB9B0A5AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A39E462-5ADD-3452-4BDA-8A67502E070A" name="PEDIDO_USUARIO_FKv1">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-28 21:02:51 UTC</createdTime>
+<generatorID>A345FA45-0249-EE73-C071-D4E15AE88623</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="428CC29B-6B93-C5D6-9864-08809C532E92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

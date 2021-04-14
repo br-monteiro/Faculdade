@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="possuiv2" directorySegmentName="seg_0" id="F9AAF3EA-018E-AACE-258C-97C8A66A0F2F">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-09 02:52:44 UTC</createdTime>
+<ownerDesignName>papelaria</ownerDesignName>
+<engineerTo>
+<item key="2F7C616A-6403-8866-37FF-178F211CB1BE" value="true"/>
+</engineerTo>
+<sourcePk>0BCE3FB5-ECAD-93C2-B7B7-4BFB14FA169F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>999AE608-F97B-CE5F-3C83-246A884C25B5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>32C21F05-58CD-FF73-1596-FD3378B4C988</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

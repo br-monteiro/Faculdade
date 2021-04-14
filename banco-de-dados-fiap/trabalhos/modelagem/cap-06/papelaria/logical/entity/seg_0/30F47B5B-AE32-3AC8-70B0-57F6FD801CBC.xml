@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="30F47B5B-AE32-3AC8-70B0-57F6FD801CBC" name="CIDADE">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-09 01:39:18 UTC</createdTime>
+<ownerDesignName>papelaria</ownerDesignName>
+<engineerTo>
+<item key="9D8A1570-F455-3BDA-B8CC-12EEBD78C9FB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cidade" id="447DFF75-4451-FE9D-B14D-768707661018">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-09 01:39:34 UTC</createdTime>
+<ownerDesignName>papelaria</ownerDesignName>
+<engineerTo>
+<item key="9D8A1570-F455-3BDA-B8CC-12EEBD78C9FB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_estado" id="7B48E2F3-F789-2916-6D18-0BC15D0CE386">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-09 01:42:10 UTC</createdTime>
+<generatorID>3AFD2B52-D364-88FC-9155-208977CDB123</generatorID>
+<ownerDesignName>papelaria</ownerDesignName>
+<engineerTo>
+<item key="9D8A1570-F455-3BDA-B8CC-12EEBD78C9FB" value="true"/>
+</engineerTo>
+<referedAttribute>6F9CE84D-AC36-6754-D4DF-4FC807DDFC69</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="9133D92C-301A-DDBD-8DE4-7AE51490D185">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-09 01:39:48 UTC</createdTime>
+<ownerDesignName>papelaria</ownerDesignName>
+<engineerTo>
+<item key="9D8A1570-F455-3BDA-B8CC-12EEBD78C9FB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D9E6E7A3-D8BE-C7BB-BB4E-1FAA6832529B" name="CIDADE PK">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-09 01:39:41 UTC</createdTime>
+<ownerDesignName>papelaria</ownerDesignName>
+<engineerTo>
+<item key="9D8A1570-F455-3BDA-B8CC-12EEBD78C9FB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>447DFF75-4451-FE9D-B14D-768707661018</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

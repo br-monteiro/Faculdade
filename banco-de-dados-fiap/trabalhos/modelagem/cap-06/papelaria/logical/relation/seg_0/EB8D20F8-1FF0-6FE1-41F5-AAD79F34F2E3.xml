@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fazer" directorySegmentName="seg_0" id="EB8D20F8-1FF0-6FE1-41F5-AAD79F34F2E3">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-09 03:08:21 UTC</createdTime>
+<ownerDesignName>papelaria</ownerDesignName>
+<engineerTo>
+<item key="2F7C616A-6403-8866-37FF-178F211CB1BE" value="true"/>
+</engineerTo>
+<sourcePk>94435C12-8D0A-BD38-A59B-1E9F3B13CE32</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>78183BE1-1EE9-DEC1-3C19-D1E54153802E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>30B951A1-4DFD-08E3-62B4-EDEC80C3957A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

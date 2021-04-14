@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="32839FAC-DD9B-CE3C-91D0-ED6867BF7B2E" name="UNID_FORNEC">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-28 21:02:51 UTC</createdTime>
+<generatorID>DA1A6200-A34E-B4E7-8DCC-B325C3BA193A</generatorID>
+<ownerDesignName>papelaria</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_unidade_fornecimento" id="5E43B957-0E33-9EA3-D2F6-CE385680F9C0">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-28 21:02:51 UTC</createdTime>
+<generatorID>95D3BAC6-9F70-057F-C504-4CCD13236D1F</generatorID>
+<ownerDesignName>papelaria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor" id="09AF0DF3-93C0-25EB-CE8B-DF6B0976808A">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-28 21:02:51 UTC</createdTime>
+<generatorID>C7A4C1FC-6D9A-EBEE-2446-05D4FF122540</generatorID>
+<ownerDesignName>papelaria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EAEDDD10-3507-AE91-902F-C1906706ABBC" name="UNID_FORNEC_PK">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-28 21:02:51 UTC</createdTime>
+<generatorID>477DD4F5-852F-20CB-D511-79FD0F31DD5E</generatorID>
+<ownerDesignName>papelaria</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E43B957-0E33-9EA3-D2F6-CE385680F9C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

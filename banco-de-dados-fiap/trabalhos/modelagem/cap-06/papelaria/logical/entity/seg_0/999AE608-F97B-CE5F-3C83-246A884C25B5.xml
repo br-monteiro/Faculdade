@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="999AE608-F97B-CE5F-3C83-246A884C25B5" name="COR">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-09 02:51:37 UTC</createdTime>
+<ownerDesignName>papelaria</ownerDesignName>
+<engineerTo>
+<item key="9D8A1570-F455-3BDA-B8CC-12EEBD78C9FB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cor" id="2466DB14-690D-195F-6A14-2E4729DFF030">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-09 02:51:46 UTC</createdTime>
+<ownerDesignName>papelaria</ownerDesignName>
+<engineerTo>
+<item key="9D8A1570-F455-3BDA-B8CC-12EEBD78C9FB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="DC660A4F-AF86-9C27-28E0-051F2B8DD93D">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-09 02:51:51 UTC</createdTime>
+<ownerDesignName>papelaria</ownerDesignName>
+<engineerTo>
+<item key="9D8A1570-F455-3BDA-B8CC-12EEBD78C9FB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0BCE3FB5-ECAD-93C2-B7B7-4BFB14FA169F" name="COR PK">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-09 02:51:56 UTC</createdTime>
+<ownerDesignName>papelaria</ownerDesignName>
+<engineerTo>
+<item key="9D8A1570-F455-3BDA-B8CC-12EEBD78C9FB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2466DB14-690D-195F-6A14-2E4729DFF030</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

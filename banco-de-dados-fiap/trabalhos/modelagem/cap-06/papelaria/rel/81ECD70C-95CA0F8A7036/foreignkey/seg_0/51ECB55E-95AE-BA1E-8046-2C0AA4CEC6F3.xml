@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="51ECB55E-95AE-BA1E-8046-2C0AA4CEC6F3" containerWithKeyObject="75D22BD3-6F72-AF96-8AAC-ABC830901984" localFKIndex="4E3A87D6-BEE0-531F-BFE9-CC430E11E538" name="LOJA_CIDADE_FK">
+<createdBy>edson.monteiro</createdBy>
+<createdTime>2021-03-28 21:02:51 UTC</createdTime>
+<generatorID>EDC1CFB9-9DF4-BE08-4DEB-3EA299709141</generatorID>
+<ownerDesignName>papelaria</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EA417238-D37D-FDAE-3273-B9587D1F8DF8</referredTableID>
+<keyObject>E7D3D930-84F9-926D-0A87-BA4C1A50B8BD</keyObject>
+<referredKeyID>E7D3D930-84F9-926D-0A87-BA4C1A50B8BD</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
