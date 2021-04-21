@@ -1,0 +1,48 @@
+SELECT
+    *
+FROM
+    LOC_BANCO
+WHERE
+    cd_banco > 20
+ORDER BY nm_banco
+
+----------------------------
+
+SELECT
+    *
+FROM
+    LOC_BANCO
+WHERE nm_banco LIKE '%ne%'
+
+----------------------------
+
+SELECT
+    cd_func,
+    nm_func
+FROM LOC_FUNCIONARIO
+WHERE
+    vl_salario >= 2000 AND
+    vl_salario <= 5000
+
+----------------------------
+
+SELECT
+    F.cd_func,
+    F.nm_func,
+    D.cd_depto,
+    D.nm_depto
+FROM
+    LOC_FUNCIONARIO F
+    INNER JOIN LOC_DEPTO D
+        ON D.cd_depto = F.cd_depto
+
+----------------------------
+
+SELECT
+    F.cd_func, F.nm_func
+FROM LOC_FUNCIONARIO G
+    RIGHT OUTER JOIN LOC_FUNCIONARIO F
+        ON F.cd_func = G.CD_GERENTE
+WHERE
+    G.cd_func IS NULL
+ORDER BY F.cd_func, F.nm_func
