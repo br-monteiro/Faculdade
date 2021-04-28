@@ -24,6 +24,6 @@ with open('./star_wars.json') as content_file:
         print('Gênero:', gender)
         print('*' * 7)
 
-print('Sexo feminino:', male_count)
+print('Sexo feminino:', female_count)
 print('Sexo masculino:', male_count)
 print('Sexo não identificado:', unknown_gender_count)
